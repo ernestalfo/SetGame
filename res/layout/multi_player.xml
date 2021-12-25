@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="1"
+    android:background="@drawable/linux_017"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bttnC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="     Crear Juego    "
+        android:textColor="@color/mwhite" />
+
+    <Button
+        android:id="@+id/bttnU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bttnC"
+        android:layout_below="@+id/bttnC"
+        android:layout_marginTop="15dp"
+        android:text="Unirse a un juego"
+        android:textColor="@color/mwhite" />
+
+</RelativeLayout>
